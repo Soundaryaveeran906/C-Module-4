@@ -16,8 +16,10 @@ To write a C program that finds the maximum between three integers using the **c
 4. Display the maximum value.
 
 ## Program
-Add code here
+```
+#include <stdio.h>
 
-## Output
-
-## Result
+int main() {
+    int a, b, c, max;
+    printf("Enter three integers:\n");
+    scanf("%d %d %d", &a, &b, &c);
